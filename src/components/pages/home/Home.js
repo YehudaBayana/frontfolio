@@ -8,7 +8,7 @@ const ImageWrraper = styled.div`
   background-image: url(/frontfolio/images/barca-landscape.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -22,12 +22,12 @@ const ImageWrraper = styled.div`
     background-color: black;
     right: 0;
     top: 0;
-    opacity: 0.5;
+    opacity: 0.6;
   }
   & p {
     max-width: 600px;
     margin: 10px auto;
-    font-size: 20px;
+    font-size: 18px;
     z-index: 1;
     color: white;
     text-align: center;
@@ -35,8 +35,13 @@ const ImageWrraper = styled.div`
   & h1 {
     color: white;
     z-index: 1;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 148px;
+  }
+  & h3 {
+    color: #f1b24a;
+    font-weight: 700;
+    z-index: 1;
   }
   @media (max-width: 700px) {
     margin-left: 0;
@@ -58,6 +63,9 @@ const CardsWrapper = styled.div`
     margin-left: 0;
     padding: 20px;
   }
+  @media (max-width: 1155px) {
+    padding: 20px;
+  }
 `;
 
 const Card = styled.div`
@@ -76,6 +84,7 @@ const Card = styled.div`
     width: 50%;
     margin: 0 auto;
     font-size: 17px;
+    color: black;
   }
   @media (max-width: 700px) {
     flex-flow: column wrap;
@@ -99,10 +108,12 @@ const Home = () => {
     <>
       <ImageWrraper>
         <h1>yuda bayana presents</h1>
+        <h3>web developer</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore
-          cumque laboriosam dolor soluta excepturi facere consectetur ratione
-          veritatis incidunt?
+          Has experience in professional positions that required the ability to
+          work independently and in a team, the ability to self-study and
+          multiple investment. Has a high work ethic, a high sense of service
+          and interpersonal communication.
         </p>
       </ImageWrraper>
       <CardsWrapper>
@@ -111,18 +122,18 @@ const Home = () => {
             <img src='/frontfolio/images/point-up.jpg' alt='' width='100%' />
           </ImgDiv>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            sequi unde iure impedit omnis reiciendis maxime, architecto
-            quibusdam aperiam obcaecati est animi rerum deserunt! Voluptatibus
-            expedita recusandae praesentium laborum, eum qui facere ipsa?
+            Here I am giving a lesson to my classmates about react hooks, in
+            this particular picture I tetched about useRef hook, it was fun to
+            give that lesson and be able to teach someone new stuff
           </p>
         </Card>
         <Card>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            sequi unde iure impedit omnis reiciendis maxime, architecto
-            quibusdam aperiam obcaecati est animi rerum deserunt! Voluptatibus
-            expedita recusandae praesentium laborum, eum qui facere ipsa?
+            Here it's a picture of the National Service graduation certificate
+            controversy. I did national service at the National Road Safety
+            Authority, a kind of Knesset for the Road Guards Center. The job of
+            the service members, to be in touch with the volunteers, to analyze
+            the information, a kind of operational cyber.
           </p>
           <ImgDiv>
             <img src='/frontfolio/images/end-service.jpg' alt='' width='100%' />

@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom';
 
 const FooterBasic = styled.div`
   padding: 20px 0;
+  margin-left: 200px;
   background-color: #4d774e;
   color: white;
   border-top: 1px solid #f1f1f1;
   margin-bottom: 0;
+  @media (max-width: 700px) {
+    margin-left: 0;
+  }
 `;
 
 const Social = styled.div`
@@ -71,32 +75,25 @@ const Footer = () => {
       <footer>
         <Social>
           <a
-            href='www.linkedin.com/in/yehuda-bayana'
+            href='https://www.linkedin.com/in/yehuda-bayana'
             target='_blank'
             rel='noreferrer'
           >
             <i class='icon ion-social-linkedin'></i>
           </a>
           <a
-            href='www.linkedin.com/in/yehuda-bayana'
+            href='https://github.com/YehudaBayana/frontfolio.git'
             target='_blank'
             rel='noreferrer'
           >
             <i class='icon ion-social-github'></i>
           </a>
           <a
-            href='www.linkedin.com/in/yehuda-bayana'
+            href='https://twitter.com/Yehudabayana2'
             target='_blank'
             rel='noreferrer'
           >
             <i class='icon ion-social-twitter'></i>
-          </a>
-          <a
-            href='www.linkedin.com/in/yehuda-bayana'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <i class='icon ion-social-facebook'></i>
           </a>
         </Social>
         <ListInline>
