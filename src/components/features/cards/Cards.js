@@ -24,11 +24,11 @@ const projects = [
     codeLink: 'https://github.com/YehudaBayana/challenge-web.git',
   },
   {
-    title: 'resume-app',
-    imgPath: '/frontfolio/images/resume-app-image.png',
-    info: 'this is another portfolio I build. sdfsd fsdf sdfasewq rtrh gfhgf cvl',
-    link: 'https://yehudabayana.github.io/resume-app/#/',
-    codeLink: 'https://github.com/YehudaBayana/resume-app.git',
+    title: 'S.T.F.T.B',
+    imgPath: '/frontfolio/images/login-app-image.png',
+    info: 'sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. ',
+    link: 'https://yehudabayana.github.io/app-with-login/',
+    codeLink: 'https://github.com/YehudaBayana/app-with-login.git',
   },
 ];
 
