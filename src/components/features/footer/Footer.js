@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const FooterBasic = styled.div`
   padding: 20px 0;
   margin-left: 200px;
-  background-color: #4d774e;
+  background-color: #164a41;
   color: white;
   border-top: 1px solid #f1f1f1;
   margin-bottom: 0;

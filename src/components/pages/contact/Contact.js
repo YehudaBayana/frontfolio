@@ -142,21 +142,30 @@ const Contact = () => {
               yudaBayana.com
             </Span>
           </Content>
-          <Form>
+          <Form
+            action='https://formsubmit.co/324c7560ffd4fbb04171fd59b7bec95b'
+            method='POST'
+          >
             <H2>Contact me</H2>
             <InputDiv>
               <label>first name</label>
-              <Input type='text' placeholder='first name' />
+              <Input type='text' name='firstName' placeholder='first name' />
             </InputDiv>
             <InputDiv>
               <label>last name</label>
-              <Input type='text' placeholder='last name' />
+              <Input type='text' name='lastName' placeholder='last name' />
             </InputDiv>
             <label>email</label>
-            <Input type='text' placeholder='example@example.com' />
+            <Input
+              type='email'
+              name='email'
+              placeholder='example@example.com'
+            />
             <label>leave a message</label>
-            <Textarea placeholder='message'></Textarea>
-            <Button>send </Button>
+            <Textarea name='message' placeholder='message'></Textarea>
+            <button>
+              <Button type='submit'>send </Button>
+            </button>
           </Form>
         </ContactDiv>
       </div>

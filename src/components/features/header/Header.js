@@ -4,7 +4,7 @@ import Button from '../button/Button';
 import Hamburger from '../Hamburger/Hamburger';
 
 const HeaderWrapper = styled.div`
-  background-color: #4d774e;
+  background-color: #164a41;
   margin-left: 200px;
   @media (max-width: 700px) {
     margin-left: 0;

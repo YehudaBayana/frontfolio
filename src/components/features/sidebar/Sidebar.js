@@ -8,7 +8,7 @@ const SidebarMenu = styled.div`
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #4d774e;
+  background-color: #164a41;
   position: fixed;
   height: 100%;
   bottom: 0;
@@ -25,12 +25,12 @@ const SidebarMenu = styled.div`
     padding: 16px;
     text-decoration: none;
     &:hover:not(.active) {
-      background-color: #f1b24a;
-      color: black;
+      background-color: #4d774e;
+      color: white;
     }
     &.active {
-      background-color: #164a41;
-      color: white;
+      background-color: #f1b24a;
+      color: black;
     }
   }
 `;
