@@ -123,22 +123,22 @@ const Contact = () => {
               Perspiciatis.
             </P>
             <Span>
-              <i class='fas fa-map-marker-alt'></i>
-              Lorem ipsum dolor sit amet.
+              <i className='fas fa-map-marker-alt'></i>
+              Beit-Shemes/Jerusalem
             </Span>
             <br />
             <Span>
-              <i class='fas fa-phone-square-alt'></i>
+              <i className='fas fa-phone-square-alt'></i>
               054-345-3426
             </Span>
             <br />
             <Span>
-              <i class='fas fa-paper-plane'></i>
+              <i className='fas fa-paper-plane'></i>
               example@example.com
             </Span>
             <br />
             <Span>
-              <i class='fas fa-globe-americas'></i>
+              <i className='fas fa-globe-americas'></i>
               yudaBayana.com
             </Span>
           </Content>

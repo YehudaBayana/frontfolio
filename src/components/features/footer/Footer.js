@@ -7,7 +7,6 @@ const FooterBasic = styled.div`
   margin-left: 200px;
   background-color: #164a41;
   color: white;
-  border-top: 1px solid #f1f1f1;
   margin-bottom: 0;
   @media (max-width: 700px) {
     margin-left: 0;
@@ -79,21 +78,21 @@ const Footer = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <i class='icon ion-social-linkedin'></i>
+            <i className='icon ion-social-linkedin'></i>
           </a>
           <a
             href='https://github.com/YehudaBayana/frontfolio.git'
             target='_blank'
             rel='noreferrer'
           >
-            <i class='icon ion-social-github'></i>
+            <i className='icon ion-social-github'></i>
           </a>
           <a
             href='https://twitter.com/Yehudabayana2'
             target='_blank'
             rel='noreferrer'
           >
-            <i class='icon ion-social-twitter'></i>
+            <i className='icon ion-social-twitter'></i>
           </a>
         </Social>
         <ListInline>

@@ -19,14 +19,14 @@ const projects = [
   {
     title: 'challenge app',
     imgPath: '/frontfolio/images/challenge-app-image.png',
-    info: 'this app just build for the challenge and fot practice, I took the challege from frontendmentor.io',
+    info: 'this app just build for the challenge and for practice, I took the challenge from frontendmentor.io. I just tried to improve and show off my UI skills',
     link: 'https://yehudabayana.github.io/challenge-web/',
     codeLink: 'https://github.com/YehudaBayana/challenge-web.git',
   },
   {
     title: 'S.T.F.T.B',
     imgPath: '/frontfolio/images/login-app-image.png',
-    info: 'sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. sdfsd fsdf sdfasewq rtrh gfhgf cvl. ',
+    info: `This project isn't done yet because I am planning to incorporate backend and database and we haven't learned that yet, anyway this project about to be with users that can listen to music and some users can get premium version of the app.`,
     link: 'https://yehudabayana.github.io/app-with-login/',
     codeLink: 'https://github.com/YehudaBayana/app-with-login.git',
   },

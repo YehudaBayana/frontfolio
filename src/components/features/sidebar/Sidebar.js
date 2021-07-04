@@ -48,9 +48,11 @@ const Sidebar = () => {
   function forReRenderFunc() {
     setForReRender((oldValue) => (oldValue === '.' ? ',' : '.'));
   }
+
   useEffect(() => {
     forReRenderFunc();
   }, []);
+
   return (
     <SidebarMenu>
       <Link onClick={forReRenderFunc} className={homeClassName} to='/home'>

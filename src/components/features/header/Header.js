@@ -41,22 +41,6 @@ const ImageDiv = styled.div`
   }
 `;
 
-// const Ul = styled.ul`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   list-style: none;
-// `;
-
-// const Li = styled.li`
-//   margin: 5px 20px;
-//   font-size: 20px;
-//   cursor: pointer;
-//   &:hover {
-//     border-bottom: 1px solid black;
-//   }
-// `;
-
 const Header = () => {
   const [size, setSize] = useState(window.innerWidth);
   const checkSize = () => {
@@ -67,7 +51,7 @@ const Header = () => {
     console.log('hello');
     window.addEventListener('resize', checkSize);
   }, []);
-  //https://tech-career-alternative.firebaseapp.com/
+
   return (
     <HeaderWrapper>
       <HeaderTag>

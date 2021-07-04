@@ -123,8 +123,10 @@ const Home = () => {
           </ImgDiv>
           <p>
             Here I am giving a lesson to my classmates about react hooks, in
-            this particular picture I tetched about useRef hook, it was fun to
-            give that lesson and be able to teach someone new stuff
+            this particular picture I tetched about useRef hook. useRef is
+            basically a hook that alow you to access to every single element
+            in........to be continued.... it was fun to give that lesson and be
+            able to teach someone new stuff
           </p>
         </Card>
         <Card>
@@ -141,7 +143,7 @@ const Home = () => {
         </Card>
         <Card>
           <ImgDiv>
-            <img src='/frontfolio/images/presedent.jpg' alt='' width='100%' />
+            <img src='/frontfolio/images/barzik.jpg' alt='' width='100%' />
           </ImgDiv>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores

@@ -156,14 +156,17 @@ const OtherSkills = styled.div`
 `;
 
 const ImgOtherSkills = styled.div`
-  width: 40%;
+  width: 50%;
   @media (max-width: 700px) {
     width: 100%;
   }
 `;
 
 const OtherSkillsText = styled.div`
-  width: 66%;
+  width: 50%;
+  p {
+    max-width: 500px;
+  }
   @media (max-width: 700px) {
     width: 100%;
   }
@@ -218,11 +221,9 @@ const Skills = () => {
         <OtherSkillsText>
           <h1>my other skills</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-            libero itaque dolor, praesentium quaerat necessitatibus est vitae
-            sunt, esse quos laboriosam repudiandae. Impedit libero corrupti qui!
-            Sunt enim distinctio provident impedit molestias deleniti, veritatis
-            dolorem maiores eos error natus minus iusto vitae recusandae.
+            High responsibility, ability to self-learn, creativity, ability to
+            work in a team. Has work ethic and versatile abilities, ability to
+            analyze information and great patience for routine work.
           </p>
           <br />
           <br />
@@ -233,7 +234,11 @@ const Skills = () => {
           </p>
         </OtherSkillsText>
         <ImgOtherSkills>
-          <img src='/frontfolio/images/Prepares1.jpg' alt='' width='100%' />
+          <img
+            src='/frontfolio/images/Prepares-survive.jpg'
+            alt=''
+            width='100%'
+          />
         </ImgOtherSkills>
       </OtherSkills>
     </>

@@ -23,12 +23,5 @@ const GeneralButton = styled.button`
     padding: 5px 25px;
   }
 `;
-// const Button = ({ children, color, margin }) => {
-//   return (
-//     <GeneralButton style={{ margin: margin }} color={color}>
-//       {children}
-//     </GeneralButton>
-//   );
-// };
 
 export default GeneralButton;
